@@ -61,3 +61,15 @@ label {
     border: none;
     border-bottom: 2px solid #5a01a7;
 }
+
+.palindrome-btn {
+    cursor: pointer;
+    width: 90px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 15px;
+    
+    color: #ffffff;
+    background-color: #5a01a7;
+}
