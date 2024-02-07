@@ -27,7 +27,7 @@ The Palindrome Checker is a web application that checks whether a given string i
 
 To use the Palindrome Checker:
 
-1. Clone the repository: `git clone https://github.com/Erikote04/Date-Formatter.git`
+1. Clone the repository: `git clone https://github.com/Erikote04/Palindrome-Checker.git`
 
 2. Open the `index.html` file in a web browser.
 
