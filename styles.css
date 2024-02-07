@@ -42,3 +42,8 @@ body {
     background-color: #ffffff;
     box-shadow: 0 6px 6px #002ead;
 }
+
+label {
+    margin-bottom: 20px;
+    color: #0a0a23;
+}
