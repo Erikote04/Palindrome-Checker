@@ -26,3 +26,19 @@ body {
     text-align: center;
     font-size: 2.5rem;
 }
+
+.palindrome-div {
+    width: min(100vw, 450px);
+    min-height: 100px;
+    margin: 10px 0;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 6px #002ead;
+}
