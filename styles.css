@@ -19,3 +19,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.title {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
