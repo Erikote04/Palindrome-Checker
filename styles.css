@@ -69,7 +69,18 @@ label {
 
     border: none;
     border-radius: 15px;
-    
+
     color: #ffffff;
     background-color: #5a01a7;
+}
+
+.results-div {
+    min-height: 50px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    color: #000000;
+}
+
+.hidden {
+    display: none;
 }
