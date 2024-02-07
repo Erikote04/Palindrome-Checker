@@ -84,3 +84,24 @@ label {
 .hidden {
     display: none;
 }
+
+.palindrome-definition-div {
+    width: min(100vw, 450px);
+    min-height: 140px;
+    margin-top: 20px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.3rem;
+
+    border-radius: 20px;
+
+    background-color: #00471b;
+}
+
+.palindrome-definition {
+    text-align: center;
+}
