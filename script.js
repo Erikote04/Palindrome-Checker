@@ -7,4 +7,6 @@ const checkPalindrome = (input) => {
         alert('Please input a value');
         return;
     }
+
+    const lowerCaseStr = input.replace('/[^A-Za-z0-9]/gi', '').toLowerCase(); // remove non alphanumeric characters
 }
