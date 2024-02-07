@@ -12,8 +12,10 @@ const checkPalindrome = (input) => {
 
     resultDiv.replaceChildren();
 
-    const lowerCaseStr = input.replace('/[^A-Za-z0-9]/gi', '').toLowerCase(); // remove non alphanumeric characters
-    let resultMessage = `<strong>${originalInput}</strong> ${lowerCaseStr === [...lowerCaseStr].reverse().join('') ? 'is' : 'is not'} a palindrome`;
+    const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase(); // remove non alphanumeric characters
+    let resultMessage = `<strong>${originalInput}</strong> ${
+        lowerCaseStr === [...lowerCaseStr].reverse().join('') ? 'is' : 'is not'
+    } a palindrome`;
 
     const pTag = document.createElement('p');
     pTag.className = 'user-input';
