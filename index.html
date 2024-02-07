@@ -7,6 +7,20 @@
     <title>Palindrome Checker</title>
 </head>
 <body>
-    
+    <main class="container">
+        <h1 class="title">Is it palindrome?</h1>
+        <div class="palindrome-div">
+            <label for="text-input">Enter in text to check for a palindrome:</label>
+            <input type="text" id="text-input" class="palindrome-input">
+            <button id="check-btn" class="palindrome-btn">Check</button>
+            <div id="result" class="results-div hidden"></div>
+        </div>
+        <div class="palindrome-definition-div">
+            <p class="palindrome-definition">
+                <span role="img" aria-label="light-bulb">💡</span>
+                A <dfn>palindrome</dfn> is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+            </p>
+        </div>
+    </main>
 </body>
 </html>
